@@ -47,31 +47,33 @@ export function Details() {
               </ul>
             </div>
           </div>
-          <div
-            id="apply"
-            className="mt-16 rounded-3xl bg-blue-600 px-8 py-12 text-center"
-          >
-            <h3 className="font-display text-3xl font-semibold text-white sm:text-4xl">
-              BY INVITATION AND APPLICATION
-            </h3>
-            <p className="mt-4 text-xl text-blue-100">
-              The Conference forms through careful selection.<br />
-              Each group becomes its own unique flock.
-            </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button
-                href="mailto:francisco@franciscobaptista.com?subject=Conference of Birds Application"
-                className="bg-white text-blue-600 hover:bg-blue-50"
-              >
-                Apply for the Conference
-              </Button>
+          <div className="flex justify-center">
+            <div
+              id="apply"
+              className="mt-16 max-w-2xl rounded-3xl bg-blue-600 px-8 py-12 text-center"
+            >
+              <h3 className="font-display text-3xl font-semibold text-white sm:text-4xl">
+                BY INVITATION AND APPLICATION
+              </h3>
+              <p className="mt-4 text-xl text-blue-100">
+                The Conference forms through careful selection.<br />
+                Each group becomes its own unique flock.
+              </p>
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+                <Button
+                  href="mailto:francisco@franciscobaptista.com?subject=Conference of Birds Application"
+                  className="bg-white text-blue-600 hover:bg-blue-50"
+                >
+                  Apply for the Conference
+                </Button>
+              </div>
+              <p className="mt-6 text-blue-200">
+                or contact Francisco directly:{' '}
+                <a href="mailto:francisco@franciscobaptista.com" className="underline text-white">
+                  francisco@franciscobaptista.com
+                </a>
+              </p>
             </div>
-            <p className="mt-6 text-blue-200">
-              or contact Francisco directly:{' '}
-              <a href="mailto:francisco@franciscobaptista.com" className="underline text-white">
-                francisco@franciscobaptista.com
-              </a>
-            </p>
           </div>
         </div>
       </Container>
