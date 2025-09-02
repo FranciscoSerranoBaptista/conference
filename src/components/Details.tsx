@@ -23,7 +23,7 @@ export function Details() {
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-semibold text-blue-900">Duration</h3>
-              <p className="mt-2 text-blue-700">6 weekly sessions, 90 minutes each</p>
+              <p className="mt-2 text-blue-700">6 monthly sessions, 90 minutes each</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-lg font-semibold text-blue-900">Group Size</h3>
@@ -62,7 +62,7 @@ export function Details() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
                 <Button
                   href="mailto:francisco@franciscobaptista.com?subject=Conference of Birds Application"
-                  className="bg-white text-blue-600 hover:bg-blue-50"
+                  className="bg-white text-gray-800 hover:bg-blue-50"
                 >
                   Apply for the Conference
                 </Button>

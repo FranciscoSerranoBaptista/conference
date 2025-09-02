@@ -9,7 +9,7 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">The Conference of Birds - </span>THE CONFERENCE OF<br />BIRDS
+            <span className="sr-only">Conference of Birds</span>CONFERENCE<br />OF BIRDS
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p className="text-3xl font-semibold">
@@ -25,7 +25,7 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Sessions', '6'],
+              ['Sessions', '6 Monthly'],
               ['Duration', '90 minutes'],
               ['Group Size', 'Max 6'],
               ['Next Start', 'Thu Oct 9, 16:00'],
