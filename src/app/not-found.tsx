@@ -1,28 +1,19 @@
-import { BackgroundImage } from '@/components/BackgroundImage'
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Layout } from '@/components/Layout'
+import Link from 'next/link'
 
 export default function NotFound() {
   return (
-    <Layout showFooter={false}>
-      <div className="relative flex h-full items-center py-20 sm:py-36">
-        <BackgroundImage className="-top-36 bottom-0" />
-        <Container className="relative flex w-full flex-col items-center">
-          <p className="font-display text-2xl tracking-tight text-blue-900">
-            404
-          </p>
-          <h1 className="mt-4 font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Page not found
-          </h1>
-          <p className="mt-4 text-lg tracking-tight text-blue-900">
-            Sorry, we couldn’t find the page you’re looking for.
-          </p>
-          <Button href="/" className="mt-8">
-            Go back home
-          </Button>
-        </Container>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center px-4">
+      <div className="text-center">
+        <h1 className="text-9xl font-bold text-white mb-4">404</h1>
+        <h2 className="text-3xl font-semibold text-purple-200 mb-4">Page Not Found</h2>
+        <p className="text-purple-300 mb-8">The page you're looking for doesn't exist.</p>
+        <Link 
+          href="/"
+          className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+        >
+          Return Home
+        </Link>
       </div>
-    </Layout>
+    </div>
   )
 }

@@ -9,13 +9,10 @@ const nextConfig = {
   // Strict mode for better React development
   reactStrictMode: true,
   
-  // SWC minification (faster than Terser)
-  swcMinify: true,
-  
   // Experimental features
   experimental: {
-    // Optimize CSS
-    optimizeCss: true,
+    // Optimize CSS - disabled to avoid critters dependency
+    optimizeCss: false,
   },
 }
 
