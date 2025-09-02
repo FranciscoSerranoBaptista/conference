@@ -7,7 +7,7 @@ export function Hero() {
     <div className="relative py-20 sm:pt-36 sm:pb-24">
       <BackgroundImage className="-top-36 -bottom-14" />
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">Conference of Birds</span>CONFERENCE<br />OF BIRDS
           </h1>

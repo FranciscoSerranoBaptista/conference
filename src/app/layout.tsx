@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - Conference of Birds',
+    default: 'Conference of Birds - A 6-Session Journey to Self-Leadership',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    'Find your center in 60 seconds. Even under pressure. Join the Conference of Birds for a transformative 6-session journey to self-leadership.',
 }
 
 export default function RootLayout({

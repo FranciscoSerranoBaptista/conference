@@ -62,7 +62,7 @@ export function Details() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
                 <Button
                   href="mailto:francisco@franciscobaptista.com?subject=Conference of Birds Application"
-                  className="bg-white text-gray-800 hover:bg-blue-50"
+                  className="bg-white text-blue-900 hover:bg-blue-50"
                 >
                   Apply for the Conference
                 </Button>
