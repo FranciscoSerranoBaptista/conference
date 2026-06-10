@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Conference of Birds',
-    default: 'Conference of Birds - A 6-Session Journey to Self-Leadership',
+    template: '%s',
+    default: 'Conference of the Birds — September 2026',
   },
   description:
-    'Find your center in 60 seconds. Even under pressure. Join the Conference of Birds for a transformative 6-session journey to self-leadership.',
+    'A six-month peer cohort for senior leaders at the achiever ceiling. Eight sessions. Six to twelve directors and above. The next cohort begins September 2026.',
 }
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'h-full bg-white antialiased',
+        'h-full antialiased',
         inter.variable,
         dmSans.variable,
       )}
