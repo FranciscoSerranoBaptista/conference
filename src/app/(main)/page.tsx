@@ -6,10 +6,10 @@ export const metadata: Metadata = {
     'A six-month peer cohort for senior leaders at the achiever ceiling. Eight sessions. Six to twelve directors and above. The next cohort begins September 2026.',
 }
 
+const PAYMENT_LINK = 'https://buy.stripe.com/dRm7sK3I1bM4ba9cJZ1Nu00'
+
 export default function Home() {
-  const paymentLink = process.env.NEXT_PUBLIC_CONFERENCE_PAYMENT_LINK
-  if (!paymentLink?.startsWith('https://'))
-    throw new Error('NEXT_PUBLIC_CONFERENCE_PAYMENT_LINK must be an https:// URL')
+  const paymentLink = process.env.NEXT_PUBLIC_CONFERENCE_PAYMENT_LINK ?? PAYMENT_LINK
 
   return (
     <div
